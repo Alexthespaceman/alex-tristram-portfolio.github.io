@@ -1,5 +1,5 @@
 import React from "react";
-// import image1 from "../images/images/meAgain.jpeg";
+import image1 from "../images/images/meAgain.jpeg";
 
 function WelcomePage(props) {
   return (
@@ -7,7 +7,7 @@ function WelcomePage(props) {
       <div className="logo">hello.</div>
       <p className="type-writer"> A full stack portfolio by alex.</p>
       <div className="home-img">
-        <img src={require("../images/images/meAgain.jpeg")} alt="pic" />
+        <img src={image1} alt="pic" />
       </div>
       <div className="mouse_scroll">
         <div className="mouse">
