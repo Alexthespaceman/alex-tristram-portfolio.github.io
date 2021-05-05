@@ -446,7 +446,7 @@ body {
   height: 300px;
   width: 500px;
   border-style: solid;
-  border-color: #25ce33;
+  border-color: #2a9d8f;
   border-radius: 15px;
   background-color: #264653;
 }
@@ -457,7 +457,7 @@ body {
 }
 
 .divide {
-  opacity: 10%;
+  opacity: 80%;
 }
 
 .contact {
