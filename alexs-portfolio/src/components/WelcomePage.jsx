@@ -7,7 +7,7 @@ function WelcomePage(props) {
       <div className="logo">hello.</div>
       <p className="type-writer"> A full stack portfolio by alex.</p>
       <div className="home-img">
-        <img src={image1} alt="pic" />
+        <img className="img" src={image1} alt="pic" />
       </div>
       <div className="mouse_scroll">
         <div className="mouse">
