@@ -164,6 +164,7 @@ body {
   transform: none;
   border: 2px solid white;
   top: 170px;
+  z-index: 15;
 }
 
 .wheel {
@@ -173,7 +174,7 @@ body {
   margin: 5px auto;
   background: white;
   position: relative;
-
+  z-index: 15;
   height: 4px;
   width: 4px;
   border: 2px solid #fff;
@@ -377,11 +378,11 @@ body {
 .about-me .flex-box-container2 div {
   margin: 40px;
   text-align: center;
-  top: 300px;
+  /* top: 370px; */
   height: 500px;
-  width: 400px;
-  padding-top: 200px;
-  margin-top: 140px;
+  width: 450px;
+  padding-top: 250px;
+  margin-top: 210px;
   flex: 1;
   border-width: 3px;
   border-style: solid;
@@ -446,7 +447,7 @@ body {
   z-index: 30;
   height: 55px;
   border-top: 12px;
-  border-top-color: #264653;
+  border-top-color: #2a9d8f;
   /* border-top-color: #2a9d8f; */
   border-top-style: solid;
 }
@@ -467,7 +468,7 @@ body {
 .social-bar .list {
   list-style-type: none; /* Remove bullets */
   padding: 0; /* Remove padding */
-  margin: 5px; /* Remove margins */
+  margin: 0px; /* Remove margins */
 }
 
 @media (max-width: 375px) {

@@ -10,10 +10,10 @@ function AboutMe(props) {
             {/* <h2> March 2020</h2> */}
             <p>ipsum 40 </p>
           </div>
-          <div>
-            {/* <h2> Front End tech stack</h2> */}
+          {/* <div>
+             <h2> Front End tech stack</h2> 
             <p>samsis</p>
-          </div>
+          </div> */}
           <div className="japan"></div>
         </div>
       </section>
