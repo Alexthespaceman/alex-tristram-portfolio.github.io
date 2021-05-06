@@ -1,3 +1,12 @@
+:root {
+  --primary-color: #2a9d8f;
+  --colorShadeA: rgb(106, 163, 137);
+  --colorShadeB: rgb(121, 186, 156);
+  --colorShadeC: rgb(150, 232, 195);
+  --colorShadeD: rgb(187, 232, 211);
+  --colorShadeE: rgb(205, 255, 232);
+}
+
 .App {
   text-align: center;
 }
@@ -95,7 +104,8 @@ body {
   height: 100px;
   margin-top: 125px;
   position: relative;
-  bottom: -145%;
+  bottom: -105%;
+  z-index: 30;
 }
 
 .m_scroll_arrows {
@@ -302,10 +312,15 @@ body {
 
 .journey {
   height: 900px;
-
   position: absolute;
   top: 1200px;
   width: 100%;
+}
+
+.march {
+  position: relative;
+  top: -40%;
+  left: 2%;
 }
 
 .title1 {
@@ -323,6 +338,13 @@ body {
 .flex-box-container {
   display: flex;
   flex-wrap: wrap;
+  position: relative;
+  text-align: center;
+}
+
+.list1 {
+  list-style-type: circle;
+  color: whitesmoke;
 }
 
 .journey .flex-box-container div {
@@ -343,6 +365,14 @@ body {
 
 .journey .flex-box-container div p {
   color: whitesmoke;
+  position: relative;
+  top: -100px;
+}
+.journey .flex-box-container div ul {
+  text-align: center;
+  color: whitesmoke;
+  position: relative;
+  top: -50px;
 }
 
 .journey .flex-box-container div:hover {
@@ -369,6 +399,11 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   letter-spacing: 0.15em;
 }
+
+/* .card p {
+  position: absolute;
+  top: 100px;
+} */
 
 .flex-box-container2 {
   display: flex;
@@ -412,7 +447,7 @@ body {
 }
 
 .work {
-  height: 1450px;
+  height: 1550px;
   background-color: #e76f51;
   opacity: 90%;
   position: absolute;
@@ -460,13 +495,98 @@ body {
   opacity: 80%;
 }
 
+/* mywork buttons */
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+
+/* .big-button .big {
+  padding: 50px;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: dotted;
+  font-size: 1.5rem;
+  color: var(--colorShadeA);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: inherit;
+
+} */
+
+a.big-button {
+  color: var(--colorShadeC);
+  font-family: inherit;
+  font-weight: 700;
+  text-align: center;
+  position: relative;
+  top: -85px;
+  right: -80%;
+  padding: 1em 2em;
+  border: 2px solid var(--colorShadeA);
+  border-radius: 1em;
+  background: var(--colorShadeE);
+  transform-style: preserve-3d;
+  transition: all 175ms cubic-bezier(0, 0, 1, 1);
+  width: 15%;
+}
+a.big-button::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--colorShadeC);
+  border-radius: inherit;
+  box-shadow: 0 0 0 2px var(--colorShadeB), 0 0.75em 0 0 var(--colorShadeA);
+  transform: translate3d(0, 0.75em, -1em);
+  transition: all 175ms cubic-bezier(0, 0, 1, 1);
+}
+
+a.big-button:hover {
+  background: var(--colorShadeD);
+  transform: translate(0, 0.375em);
+}
+
+a.big-button:hover::before {
+  transform: translate3d(0, 0.75em, -1em);
+}
+
+a.big-button:active {
+  transform: translate(0em, 0.75em);
+}
+
+a.big-button:active::before {
+  transform: translate3d(0, 0, -1em);
+
+  box-shadow: 0 0 0 2px var(--colorShadeB), 0 0.25em 0 0 var(--colorShadeB);
+}
+
 .contact {
   height: 900px;
   background-color: #e9c46a;
   opacity: 90%;
   position: absolute;
-  top: 4450px;
+  top: 4150px;
   width: 100%;
+  position: relative;
+}
+
+.box {
+  position: relative;
+  bottom: -30%;
+  right: -25%;
+  text-align: center;
+  width: 50%;
+  height: 40%;
+  background-color: cadetblue;
+  border-radius: 10px;
+  padding: 20px;
+  padding-left: -30px;
 }
 
 .title4 {
@@ -509,12 +629,119 @@ body {
 }
 
 .social-bar .list {
-  list-style-type: none; /* Remove bullets */
-  padding: 0; /* Remove padding */
-  margin: 0px; /* Remove margins */
+  list-style-type: none;
+  padding: 0;
+  margin: 0px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+
+h1 {
+  text-align: center;
+  color: #a8a8a8;
+  @include text-shadow(1px 1px 0 rgba(white, 1));
+}
+
+form {
+  max-width: 600px;
+  text-align: center;
+}
+
+#input-name {
+  position: absolute;
+  margin: 10px;
+  height: 50px;
+  border-radius: 10px;
+  top: 29%;
+  left: 15%;
+}
+#input-subject {
+  margin: 10px;
+  height: 50px;
+  border-radius: 10px;
+  position: absolute;
+  top: 47%;
+  left: 15%;
+}
+
+#input-message {
+  border-radius: 10px;
+  width: 340px;
+  height: 120px;
+  position: absolute;
+  top: 110px;
+  right: 25%;
+  border-style: inset;
+}
+
+#input-submit {
+  position: absolute;
+  color: white;
+  background: red;
+  cursor: pointer;
+  border-radius: 5px;
+  height: 30px;
+  width: 59%;
+  right: 25%;
+  top: 70%;
+}
+
+textarea {
+  height: 126px;
+}
+
+.half {
+  float: left;
+  width: 48%;
+  margin-bottom: 1em;
+}
+
+.right {
+  width: 50%;
+}
+
+.left {
+  margin-right: 2%;
+}
+
+@media (max-width: 480px) {
+  .half {
+    width: 100%;
+    float: none;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 1180) {
+  a.big-button {
+    z-index: 40;
+  }
+}
+
+@media (max-width: 1000px) {
+  a.big-button {
+    color: var(--colorShadeC);
+    font-family: inherit;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    top: -85px;
+    right: -3%;
+    padding: 1em 2em;
+    border: 2px solid var(--colorShadeA);
+    border-radius: 1em;
+    background: var(--colorShadeE);
+    transform-style: preserve-3d;
+    transition: all 175ms cubic-bezier(0, 0, 1, 1);
+    width: 15%;
+  }
 }
 
 @media (max-width: 375px) {
+  .divide {
+    display: none;
+  }
+
   .type-writer {
     width: 150%;
     font-size: 2rem;

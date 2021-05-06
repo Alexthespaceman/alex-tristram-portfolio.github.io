@@ -8,20 +8,17 @@ function MyWork(props) {
         <p className="title3">...Some of my best work</p>
         <div className="flex-box-container3">
           <div className="long div div1">
-            <div className="div divide">
-              <a>{/* <img scr={image1} alt="portfolio" /> */}</a>
-            </div>
+            <div className="div divide"></div>
           </div>
+          <a className="big-button">click me to see more!</a>
           <div className="long div2">
-            <div className="div divide">
-              <a>{/* <img /> */}</a>
-            </div>
+            <div className="div divide"></div>
           </div>
+          <a className="big-button">click me to see more!</a>
           <div className="long div3">
-            <div className="div divide">
-              <a>{/* <img /> */}</a>
-            </div>
+            <div className="div divide"></div>
           </div>
+          <a className="big-button">click me to see more!</a>
         </div>
       </section>
     </div>
