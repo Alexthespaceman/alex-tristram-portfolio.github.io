@@ -6,7 +6,7 @@ function AboutMe(props) {
       <section className="about-me">
         <p className="title2">...This is who I am</p>
         <div className="flex-box-container2">
-          <div>
+          <div className="mee">
             <p>
               {" "}
               A lot of things changed for a lot of people during the pandemic,
@@ -28,8 +28,12 @@ function AboutMe(props) {
               hello?{" "}
             </p>
           </div>
+        </div>
 
+        <div className="interests">
           <div className="japan"></div>
+          <div className="plane"></div>
+          <div className="everest"></div>
         </div>
       </section>
     </div>

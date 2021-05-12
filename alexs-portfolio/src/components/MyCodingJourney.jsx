@@ -21,7 +21,7 @@ function MyCodingJourney(props) {
               <li>FOR LOOPS!!</li>
             </ul>
           </div>
-          <div>
+          <div className="card2">
             <h2 className="march"> Front End tech stack</h2>
             <p>
               My time with north coders allowed me to experience an incredible
