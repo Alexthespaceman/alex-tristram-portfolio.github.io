@@ -1,11 +1,8 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import image4 from "../images/images/email.png";
-import image3 from "../images/images/facebook.png";
 import image2 from "../images/images/instagram.png";
-import {
-  default as image1,
-  default as image5,
-} from "../images/images/twitter.png";
+import { default as image1 } from "../images/images/twitter.png";
 
 function Footer(props) {
   return (
@@ -24,7 +21,11 @@ function Footer(props) {
           </li>
           <li>
             <a href="https://github.com/">
-              <img src={image3} alt="github" />
+              <FontAwesomeIcon
+                icon={["fab", "github"]}
+                size="3x"
+                color="black"
+              />
             </a>
           </li>
           <li>
@@ -34,7 +35,11 @@ function Footer(props) {
           </li>
           <li>
             <a href="https://www.linkedin.com/in/alex-tristram-75322617a/">
-              <img src={image5} alt="linkedIn" />
+              <FontAwesomeIcon
+                icon={["fab", "linkedin"]}
+                size="3x"
+                color="black"
+              />
             </a>
           </li>
         </ul>
