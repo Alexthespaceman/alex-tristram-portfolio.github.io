@@ -460,50 +460,55 @@ body {
 
 .japan {
   flex: 1;
-  background-image: url("../src/images/images/japan.png");
+  background-image: url("../src/images/images/me-in-penang.jpeg");
   border-width: 3px;
   border-color: #f4a261;
   border-style: solid;
   height: 350px;
   border-radius: 20px;
   margin: 20px;
+  background-size: cover;
 }
 
 .plane {
   flex: 1;
-  background-image: url("../src/images/images/plane.jpg");
+  background-image: url("../src/images/images/gliders.jpeg");
   border-color: #f4a261;
   border-style: solid;
   height: 350px;
   border-radius: 20px;
   margin: 20px;
+  background-size: cover;
 }
 
 .everest {
   flex: 1;
-  background-image: url("../src/images/images/mt.bromo.jpeg");
+  background-image: url("../src/images/images/everest.jpeg");
   border-color: #f4a261;
   border-style: solid;
   height: 350px;
   border-radius: 20px;
   margin: 20px;
+  background-size: cover;
 }
 
 .div1 {
   background-image: url("../src/images/images/portfolio-item11.jpg");
   z-index: 40;
+  background-size: cover;
 }
 
 .div2 {
-  background-image: url("../src/images/images/portfolio-item7.jpg");
+  background-image: url("../src/images/images/backend.png");
   z-index: 40;
+  background-size: cover;
 }
 
 .div3 {
-  background-image: url("../src/images/images/bloggo.jpeg");
+  background-image: url("../src/images/images/travel-app.jpg");
   z-index: 40;
-  width: 100%;
-  height: 100%;
+
+  background-size: cover;
 }
 
 .work {
@@ -513,6 +518,13 @@ body {
   position: absolute;
   top: 3000px;
   width: 100%;
+}
+
+.work1 {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
 }
 
 .title3 {

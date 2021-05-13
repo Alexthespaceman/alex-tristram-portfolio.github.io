@@ -4,7 +4,7 @@ function MyCodingJourney(props) {
   return (
     <div>
       <section className="journey">
-        <p className="title1">My coding Journey so far...</p>
+        <p className="title1">Hover to see my coding Journey so far...</p>
         <div className="flex-box-container">
           <div className="card">
             <h2 className="march"> March 2020</h2>
