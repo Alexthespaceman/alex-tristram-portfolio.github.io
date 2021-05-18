@@ -1,8 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import image4 from "../images/images/email.png";
-import image2 from "../images/images/instagram.png";
-import { default as image1 } from "../images/images/twitter.png";
 
 function Footer(props) {
   return (
@@ -11,12 +9,22 @@ function Footer(props) {
         <ul className="list">
           <li>
             <a href="https://twitter.com/Alexthespaceman">
-              <img src={image1} alt="twitter" />
+              {/* <img src={image1} alt="twitter" /> */}
+              <FontAwesomeIcon
+                icon={["fab", "twitter"]}
+                size="3x"
+                color="black"
+              />
             </a>
           </li>
           <li>
             <a href="https://www.instagram.com/4lextristram/">
-              <img src={image2} alt="instagram" />
+              {/* <img src={image2} alt="instagram" /> */}
+              <FontAwesomeIcon
+                icon={["fab", "instagram"]}
+                size="3x"
+                color="black"
+              />
             </a>
           </li>
           <li>
