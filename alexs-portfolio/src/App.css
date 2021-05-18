@@ -415,10 +415,6 @@ body {
   letter-spacing: 0.15em;
 }
 
-.card p {
-  padding: 16px;
-}
-
 .flex-box-container2 {
   display: flex;
   flex-wrap: wrap;

@@ -8,7 +8,7 @@ function MyCodingJourney(props) {
         <div className="flex-box-container">
           <div className="card">
             <h2 className="march"> March 2020</h2>
-            <p>
+            <p className="p">
               {" "}
               I started to learn to code with free online resources such as
               Codecademy and free code camp, I learnt the fundamentals, and in
@@ -21,7 +21,7 @@ function MyCodingJourney(props) {
               <li>FOR LOOPS!!</li>
             </ul>
           </div>
-          <div className="card2">
+          <div>
             <h2 className="march"> Front End tech stack</h2>
             <p>
               My time with north coders allowed me to experience an incredible
