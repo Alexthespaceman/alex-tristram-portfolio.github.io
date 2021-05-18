@@ -28,7 +28,12 @@ function MyWork(props) {
               </p>
             </div>
           </div>
-          <a className="big-button">click me to see more!</a>
+          <a
+            href="https://github.com/Alexthespaceman/front-end-news-app/branches"
+            className="big-button"
+          >
+            click me to see more!
+          </a>
           <div className="long div2">
             <div className="div divide">
               <h2 className="work1">
@@ -48,7 +53,12 @@ function MyWork(props) {
               </p>
             </div>
           </div>
-          <a className="big-button">click me to see more!</a>
+          <a
+            href="https://nchelp.herokuapp.com/api/articles"
+            className="big-button"
+          >
+            click me to see more!
+          </a>
           <div className="long div3">
             <div className="div divide">
               <h2 className="work1">
@@ -73,7 +83,12 @@ function MyWork(props) {
               </p>
             </div>
           </div>
-          <a className="big-button">click me to see more!</a>
+          <a
+            href="https://www.youtube.com/watch?v=RkQ6M6y7GGc"
+            className="big-button"
+          >
+            click me to see more!
+          </a>
         </div>
       </section>
     </div>
