@@ -515,7 +515,7 @@ body {
   position: absolute;
   top: 3000px;
   width: 100%;
-  z-index: 15;
+  z-index: 30;
 }
 
 .work1 {
