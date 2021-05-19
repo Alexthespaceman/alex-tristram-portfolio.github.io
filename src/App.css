@@ -563,7 +563,7 @@ body {
 }
 
 .divide {
-  opacity: 80%;
+  /* opacity: 80%; */
 }
 
 /* mywork buttons */
@@ -642,7 +642,7 @@ a.big-button:active::before {
   background-color: #e9c46a;
   /* opacity: 90%; */
   position: absolute;
-  top: 3350px;
+  top: 3300px;
   width: 100%;
   position: relative;
   z-index: 40;
