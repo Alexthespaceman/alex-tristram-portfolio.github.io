@@ -16,13 +16,12 @@ body {
   padding: 0;
   margin: 0;
   width: 100%;
-  background-color: #264653;
-  height: 800px;
 }
 
 .home {
-  height: 400px;
+  height: 1200px;
   position: relative;
+  background-color: #264653;
 }
 
 .logo {
@@ -38,7 +37,7 @@ body {
 .type-writer {
   text-align: center;
   font-size: 70px;
-  top: 90%;
+  top: 30%;
   /* left: 15%; */
   width: 80%;
   position: relative;
@@ -110,7 +109,7 @@ body {
   height: 100px;
   margin-top: 125px;
   position: relative;
-  bottom: -105%;
+  top: 45%;
   z-index: 30;
 }
 
@@ -321,6 +320,7 @@ body {
   position: absolute;
   top: 1200px;
   width: 100%;
+  background-color: #264653;
 }
 
 .march {
@@ -642,7 +642,7 @@ a.big-button:active::before {
   background-color: #e9c46a;
   opacity: 90%;
   position: absolute;
-  top: 4150px;
+  top: 3350px;
   width: 100%;
   position: relative;
 }
