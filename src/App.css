@@ -738,6 +738,7 @@ form {
   top: 29%;
   left: 15%;
 }
+
 #input-subject {
   margin: 10px;
   height: 32px;
@@ -758,7 +759,7 @@ form {
 
 #input-message {
   border-radius: 10px;
-  width: 200px;
+  width: 250px;
   height: 120px;
   position: absolute;
   top: 110px;
