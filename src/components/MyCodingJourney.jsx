@@ -7,7 +7,7 @@ function MyCodingJourney(props) {
         <p className="title1">Hover to see my coding Journey so far...</p>
         <div className="flex-box-container">
           <div className="card">
-            <h2 className="march"> March 2020</h2>
+            <h2 className="march"> My Own Development</h2>
             <p className="p">
               {" "}
               I started to learn to code with free online resources such as
@@ -22,10 +22,10 @@ function MyCodingJourney(props) {
             </ul>
           </div>
           <div>
-            <h2 className="march"> Front End tech stack</h2>
+            <h2 className="march"> Front End Tech Stack</h2>
             <p>
-              My time with north coders allowed me to experience an incredible
-              ammount of tech, these include, and exceed the list below
+              My time with north coders allowed me to experience a large range
+              of tech when it comes to the front end tech stack, these include
             </p>
             <ul className="list1">
               <li>The DOM and Web APIs</li>
@@ -42,8 +42,12 @@ function MyCodingJourney(props) {
             </ul>
           </div>
           <div>
-            <h2 className="march"> Back End tech stack </h2>
-            <p>Express, Axios, PSQL, fire base </p>
+            <h2 className="march">Back End Tech Stack</h2>
+            <p>
+              Over the Back end part of the course, we built an API from the
+              ground up using an SQL relational database and dynamic end points
+              using express.{" "}
+            </p>
             <ul className="list1">
               <li>Building servers with Express</li>
               <li>HTTP Servers</li>
