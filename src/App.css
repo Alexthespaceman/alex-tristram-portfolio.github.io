@@ -512,7 +512,7 @@ body {
 .work {
   height: 1550px;
   background-color: #e76f51;
-  opacity: 90%;
+  /* opacity: 90%; */
   position: absolute;
   top: 3000px;
   width: 100%;
@@ -640,7 +640,7 @@ a.big-button:active::before {
 .contact {
   height: 900px;
   background-color: #e9c46a;
-  opacity: 90%;
+  /* opacity: 90%; */
   position: absolute;
   top: 3350px;
   width: 100%;
