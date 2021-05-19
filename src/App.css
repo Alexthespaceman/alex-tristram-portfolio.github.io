@@ -524,6 +524,17 @@ body {
   text-align: center;
   padding: 10px;
   margin: 10px;
+  letter-spacing: 0.15em;
+  font-weight: lighter;
+}
+
+.work2 {
+  color: white;
+  text-align: center;
+  padding: 7px;
+  margin: 7px;
+  letter-spacing: 0.15em;
+  font-weight: lighter;
 }
 
 .title3 {
@@ -679,7 +690,7 @@ a.big-button:active::before {
   background-color: #f4a261;
   position: fixed;
   bottom: 0;
-  z-index: 30;
+  z-index: 50;
   height: 55px;
   border-top: 12px;
   border-top-color: #2a9d8f;

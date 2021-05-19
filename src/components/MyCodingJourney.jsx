@@ -51,17 +51,16 @@ function MyCodingJourney(props) {
             <ul className="list1">
               <li>Building servers with Express</li>
               <li>HTTP Servers</li>
-              <li>SQL</li>
               <li>Introduction to PSQL</li>
               <li>RESTful API design and testing</li>
               <li>Web Servers with Express</li>
-              <li> Complex queries with PSQL</li>
+              <li>Complex queries with PSQL</li>
               <li>Database migrations</li>
               <li>Complex error handling</li>
               <li>RESTful API design and testing</li>
               <li>Knex</li>
               <li>MVC Architecture</li>
-              <li>Deploying apps with Heroku</li>
+              {/* <li>Deploying apps with Heroku</li> */}
             </ul>
           </div>
         </div>

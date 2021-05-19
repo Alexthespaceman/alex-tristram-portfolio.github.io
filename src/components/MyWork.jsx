@@ -61,12 +61,12 @@ function MyWork(props) {
           </a>
           <div className="long div3">
             <div className="div divide">
-              <h2 className="work1">
+              <h2 className="work2">
                 {" "}
                 Bloggo, A travel and social media app that lets you share
                 memories{" "}
               </h2>{" "}
-              <p className="work1">
+              <p className="work2">
                 {" "}
                 BlogGo, is a travel and blogging app, that lets you blog, on the
                 go! - BlogGO! The idea is that blogs are not a great way to tell
@@ -76,7 +76,7 @@ function MyWork(props) {
                 and comment on friends blog posts and get reccomendations of
                 where to go from your friends posts!{" "}
               </p>
-              <p className="work1">
+              <p className="work2">
                 The Tech stack used to build this project includes JavaScript,
                 React Native with Expo, Axios, Firebase, Cloud Fire store,
                 Coundinary, GoogleMaps, and jest
