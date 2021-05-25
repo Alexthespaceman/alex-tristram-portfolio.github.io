@@ -29,10 +29,10 @@ function MyWork(props) {
             </div>
           </div>
           <a
-            href="https://github.com/Alexthespaceman/front-end-news-app/branches"
+            href="https://north-coders-news.netlify.app/"
             className="big-button"
           >
-            click me to see more!
+            click here to see the live version!
           </a>
           <div className="long div2">
             <div className="div divide">
@@ -57,7 +57,7 @@ function MyWork(props) {
             href="https://nchelp.herokuapp.com/api/articles"
             className="big-button"
           >
-            click me to see more!
+            click here to see a live version!
           </a>
           <div className="long div3">
             <div className="div divide">
@@ -87,7 +87,7 @@ function MyWork(props) {
             href="https://www.youtube.com/watch?v=RkQ6M6y7GGc"
             className="big-button"
           >
-            click me to see more!
+            click to see a video of our app!
           </a>
         </div>
       </section>

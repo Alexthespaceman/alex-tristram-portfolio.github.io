@@ -18,7 +18,7 @@ function MyCodingJourney(props) {
             <ul className="list1">
               <li>Java Script Fundamentals</li>
               <li>Git, Git Hub, and version control</li>
-              <li>FOR LOOPS!!</li>
+              <li className="no-show">FOR LOOPS!!</li>
             </ul>
           </div>
           <div>
@@ -36,19 +36,19 @@ function MyCodingJourney(props) {
               <li>Peripheral React technologies</li>
               <li>React-Router</li>
               <li>Semantic HTML</li>
-              <li>Lifecycle Methods</li>
-              <li>Advanced React</li>
-              <li>Front-end testing frameworks</li>
+              <li className="no-show">Lifecycle Methods</li>
+              <li className="no-show">Advanced React</li>
+              <li className="no-show">Front-end testing frameworks</li>
             </ul>
           </div>
           <div>
             <h2 className="march">Back End Tech Stack</h2>
-            <p>
+            <p className="bigger">
               Over the Back end part of the course, we built an API from the
               ground up using an SQL relational database and dynamic end points
               using express.{" "}
             </p>
-            <ul className="list1">
+            <ul className="bigger" className="list1">
               <li>Building servers with Express</li>
               <li>HTTP Servers</li>
               <li>Introduction to PSQL</li>
