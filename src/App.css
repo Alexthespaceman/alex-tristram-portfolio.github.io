@@ -391,6 +391,7 @@ body {
 .journey .flex-box-container div:hover {
   /* transform: scale(1.2); */
   background-color: #2a9d8f;
+  transition: 0.5s;
 }
 
 .about-me {
@@ -501,12 +502,21 @@ body {
 .div3 {
   background-image: url("../src/images/images/travel-app.jpg");
   z-index: 40;
-
+  background-size: cover;
+}
+.div4 {
+  background-image: url("../src/images/images/weather-app1.jpeg");
+  z-index: 40;
+  background-size: cover;
+}
+.div3 {
+  background-image: url("../src/images/images/travel-app.jpg");
+  z-index: 40;
   background-size: cover;
 }
 
 .work {
-  height: 1550px;
+  height: 1950px;
   background-color: #e76f51;
   /* opacity: 90%; */
   position: absolute;
@@ -555,7 +565,7 @@ body {
 .work .flex-box-container3 div {
   margin-top: 100px;
   margin-left: 200px;
-  flex: 1 1 1;
+  flex: 1 1 1 1;
   height: 300px;
   width: 500px;
   border-style: solid;
@@ -649,7 +659,7 @@ a.big-button:active::before {
   background-color: #e9c46a;
   /* opacity: 90%; */
   position: absolute;
-  top: 3300px;
+  top: 3750px;
   width: 100%;
   position: relative;
   z-index: 40;

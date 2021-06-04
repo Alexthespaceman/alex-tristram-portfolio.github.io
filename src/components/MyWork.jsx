@@ -79,7 +79,7 @@ function MyWork(props) {
               <p className="work2">
                 The Tech stack used to build this project includes JavaScript,
                 React Native with Expo, Axios, Firebase, Cloud Fire store,
-                Coundinary, GoogleMaps, and jest
+                Cloundinary, GoogleMaps, and jest
               </p>
             </div>
           </div>
@@ -88,6 +88,35 @@ function MyWork(props) {
             className="big-button"
           >
             click to see a video of our app!
+          </a>
+          <div className="long div4">
+            <div className="div divide">
+              <h2 className="work2">
+                {" "}
+                The Weather Station, a dynamic weather app that informs the user
+                of the local weather as well as weather from around the world!
+              </h2>{" "}
+              <p className="work2">
+                The webpage displays real time weather from cities around the
+                world, as well as local weather, that includes temperature,
+                weather description and wind speed. A side bar displays cities
+                from around the world, as well as a search bar to search any
+                live weather in any city in the world. I made the backgrounds,
+                weather icons and descriptions all dynamic, changing with the
+                weather forecast in real time, as well as adding a feature that
+                displays tomorrows forecast.{" "}
+              </p>
+              <p className="work2">
+                The Tech stack used to build this project includes React.js and
+                Axios.
+              </p>
+            </div>
+          </div>
+          <a
+            href="https://theweatherstation.netlify.app/"
+            className="big-button"
+          >
+            click to see a live version on my weather app!
           </a>
         </div>
       </section>
