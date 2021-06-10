@@ -374,11 +374,11 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   letter-spacing: 0.15em;
-  text-align: left;
+  text-align: center;
   padding: 16px;
 }
 .journey .flex-box-container div ul {
-  text-align: left;
+  text-align: center;
   color: whitesmoke;
   position: relative;
   top: -50px;
