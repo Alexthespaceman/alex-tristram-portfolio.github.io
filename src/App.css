@@ -851,15 +851,15 @@ textarea {
   .home-img {
     width: 150%;
     position: absolute;
-    left: 800px;
+    left: 785px;
   }
 
   .type-writer {
-    width: 150%;
+    width: 130%;
     font-size: 4rem;
     text-align: center;
-    position: relative;
-    left: 30px;
+    /* position: relative;
+    left: 30px; */
   }
 
   .title1 {
@@ -930,7 +930,7 @@ textarea {
   }
 
   #input-message {
-    width: 113px;
+    width: 313px;
   }
 
   #input-email {
