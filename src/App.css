@@ -743,6 +743,7 @@ form {
   border-radius: 10px;
   top: 29%;
   left: 15%;
+  width: 30%;
 }
 
 #input-subject {
@@ -752,6 +753,7 @@ form {
   position: absolute;
   top: 41%;
   left: 15%;
+  width: 30%;
 }
 
 #input-email {
@@ -761,6 +763,7 @@ form {
   position: absolute;
   top: 52%;
   left: 15%;
+  width: 30%;
 }
 
 #input-message {
