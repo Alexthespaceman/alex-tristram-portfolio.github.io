@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import image1 from "../images/images/meAgain.jpeg";
 
 function WelcomePage(props) {
@@ -10,9 +11,50 @@ function WelcomePage(props) {
         <img className="img" src={image1} alt="pic" />
       </div>
       <div className="but">
-        <button className="but1">What Tach Stack I know </button>
-        <button className="but1">learn more about me</button>
-        <button className="but1">My Work</button>
+        <nav>
+          <Link
+            to="coding-journey"
+            spy={true}
+            smooth={true}
+            duration={500}
+            // className="some-class"
+            activeClass="active"
+          >
+            <button className="but1">My Tech Stack</button>
+          </Link>
+
+          <Link
+            to="about-me"
+            spy={true}
+            smooth={true}
+            duration={700}
+            // className="some-class"
+            // activeClass="active"
+          >
+            <button className="but1">About me</button>
+          </Link>
+
+          <Link
+            to="portfolio"
+            spy={true}
+            smooth={true}
+            duration={900}
+            // className="some-class"
+            // activeClass="active"
+          >
+            <button className="but1">My portfolio</button>
+          </Link>
+          <Link
+            to="contact"
+            spy={true}
+            smooth={true}
+            duration={1000}
+            // className="some-class"
+            // activeClass="active"
+          >
+            <button className="but1">Come and say Hi</button>
+          </Link>
+        </nav>
       </div>
       <div className="mouse_scroll">
         <div className="mouse">

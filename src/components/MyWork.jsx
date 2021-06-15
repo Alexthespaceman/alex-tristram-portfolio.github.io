@@ -1,11 +1,13 @@
 import React from "react";
-// import image1 from "../images/images/portfolio-item11.jpg";
+import { Element } from "react-scroll";
 
 function MyWork(props) {
   return (
     <div>
       <section className="work">
-        <p className="title3">...Some of my best work</p>
+        <Element id="portfolio">
+          <p className="title3">...Some of my best work</p>
+        </Element>
         <div className="flex-box-container3">
           <div className="long div div1">
             <div className="div divide">
@@ -17,7 +19,7 @@ function MyWork(props) {
                 to read news articles by their friends as well as post their own
                 articles, up and down vote other peoples articles and view user
                 profiles, and comment on your favorite articles. All this
-                functionality is done optimistically as well as comunicating
+                functionality is done optimistically as well as communicating
                 with a backend API and database I made for this app a few weeks
                 earlier.{" "}
               </p>
@@ -28,6 +30,7 @@ function MyWork(props) {
               </p>
             </div>
           </div>
+
           <a
             href="https://north-coders-news.netlify.app/"
             className="big-button"
