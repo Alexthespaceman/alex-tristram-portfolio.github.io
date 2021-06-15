@@ -9,6 +9,11 @@ function WelcomePage(props) {
       <div className="home-img">
         <img className="img" src={image1} alt="pic" />
       </div>
+      <div className="but">
+        <button className="but1">What Tach Stack I know </button>
+        <button className="but1">learn more about me</button>
+        <button className="but1">My Work</button>
+      </div>
       <div className="mouse_scroll">
         <div className="mouse">
           <div className="wheel"></div>
