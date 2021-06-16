@@ -847,6 +847,25 @@ textarea {
   }
 }
 
+/*   SCREEN SIZE 13INC   */
+
+@media (min-width: 801px) and (max-width: 1440px) {
+  .but {
+    position: absolute;
+    left: 17.5%;
+    top: 35%;
+    width: 80%;
+  }
+
+  #input-message {
+    width: 27%;
+  }
+  .left {
+    background-color: antiquewhite;
+    color: #264653;
+  }
+}
+
 @media (max-width: 1000px) {
   a.big-button {
     /* color: var(--colorShadeC);

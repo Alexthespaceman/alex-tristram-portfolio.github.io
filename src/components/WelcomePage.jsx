@@ -20,7 +20,7 @@ function WelcomePage(props) {
             // className="some-class"
             activeClass="active"
           >
-            <button className="but1">My Tech Stack</button>
+            <button className="but1 left">My Tech Stack</button>
           </Link>
 
           <Link
@@ -31,7 +31,7 @@ function WelcomePage(props) {
             // className="some-class"
             // activeClass="active"
           >
-            <button className="but1">About me</button>
+            <button className="but1 left">About me</button>
           </Link>
 
           <Link
@@ -42,7 +42,7 @@ function WelcomePage(props) {
             // className="some-class"
             // activeClass="active"
           >
-            <button className="but1">My portfolio</button>
+            <button className="but1 ">My portfolio</button>
           </Link>
           <Link
             to="contact"
@@ -52,7 +52,7 @@ function WelcomePage(props) {
             // className="some-class"
             // activeClass="active"
           >
-            <button className="but1">Come and say Hi</button>
+            <button className="but1 ">Come and say hi</button>
           </Link>
         </nav>
       </div>
