@@ -28,7 +28,7 @@ function Footer(props) {
             </a>
           </li>
           <li>
-            <a href="https://github.com/">
+            <a href="https://github.com/alexthespaceman">
               <FontAwesomeIcon
                 icon={["fab", "github"]}
                 size="3x"
