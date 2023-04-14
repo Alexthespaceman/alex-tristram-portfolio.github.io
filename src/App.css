@@ -381,7 +381,7 @@ body {
   margin: 40px;
   text-align: center;
   /* top: -100px; */
-  height: 500px;
+  height: 525px;
   width: 400px;
   padding-top: 150px;
   margin-top: 140px;
@@ -536,14 +536,19 @@ body {
   z-index: 40;
   background-size: cover;
 }
-.div3 {
-  background-image: url("../src/images/images/travel-app.jpg");
+.div5 {
+  background-image: url("../src/images/images/plantonator.png");
   z-index: 40;
   background-size: cover;
 }
+/* .div3 {
+  background-image: url("../src/images/images/travel-app.jpg");
+  z-index: 40;
+  background-size: cover;
+} */
 
 .work {
-  height: 2000px;
+  height: 2585px;
   background-color: #e76f51;
   /* opacity: 90%; */
   position: absolute;
@@ -593,7 +598,7 @@ body {
   margin-top: 100px;
   margin-left: 200px;
   flex: 1 1 1 1;
-  height: 300px;
+  height: 326px;
   width: 500px;
   border-style: solid;
   border-color: #2a9d8f;
@@ -686,7 +691,7 @@ a.big-button:active::before {
   background-color: #e9c46a;
   /* opacity: 90%; */
   position: absolute;
-  top: 3750px;
+  top: 4370px;
   width: 100%;
   position: relative;
   z-index: 40;

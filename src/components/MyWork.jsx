@@ -119,7 +119,29 @@ function MyWork(props) {
             href="https://theweatherstation.netlify.app/"
             className="big-button"
           >
-            click to see a live version on my weather app!
+            click to see a live version of my weather app!
+          </a>
+          <div className="long div5">
+            <div className="div divide">
+              <h2 className="work2">
+                {" "}
+                Welcome to the plantonator, a cool little application that helps you choose what house plant would best suit your needs!
+              </h2>{" "}
+              <p className="work2">
+              Introducing the Plantonator, the perfect tool to help you choose the best house plant for your home or office. With the plantonator, you can browse a variety of house plants, each with its unique features, and find the one that suits your needs.
+
+              The user-friendly interface makes it easy to search for house plants based on several criteria, such as size, light and water requirements.
+              </p>
+              <p className="work2">
+                The Tech stack used to build this application is React.js.
+              </p>
+            </div>
+          </div>
+          <a
+            href="https://the-plantonator.netlify.app/"
+            className="big-button"
+          >
+            click to see a live version of my house plant chooser!
           </a>
         </div>
       </section>
