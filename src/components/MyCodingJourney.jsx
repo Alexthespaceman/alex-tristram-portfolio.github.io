@@ -32,7 +32,6 @@ function MyCodingJourney(props) {
               </p>
               <ul className="list1">
                 <li>The DOM and Web APIs</li>
-                <li>Semantic HTML</li>
                 <li>Responsive CSS</li>
                 <li>Introduction to UX</li>
                 <li>React</li>
@@ -51,7 +50,7 @@ function MyCodingJourney(props) {
                 ground up using an SQL relational database and dynamic end
                 points using express.{" "}
               </p>
-              <ul className="bigger" className="list1">
+              <ul className="list1">
                 <li>Building servers with Express</li>
                 <li>HTTP Servers</li>
                 <li>Introduction to PSQL</li>
@@ -63,7 +62,6 @@ function MyCodingJourney(props) {
                 <li>RESTful API design and testing</li>
                 <li>Knex</li>
                 <li>MVC Architecture</li>
-                {/* <li>Deploying apps with Heroku</li> */}
               </ul>
             </div>
           </div>
